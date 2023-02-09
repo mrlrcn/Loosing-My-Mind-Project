@@ -10,8 +10,8 @@
 
             <header id="intro">
 
-                <h1>Blog <span>mind and copy</span></h1>
-                <p>A truly fun and rewarding compilation of freak stuff written and written by myself, the author.</p>
+                    <h1><?php the_title(); ?> <span><?php the_field ( 'page_subtitle' ); ?></span></h1>
+                    <p><?php the_field ( 'page_intro' ); ?></p>
 
             </header>
 
